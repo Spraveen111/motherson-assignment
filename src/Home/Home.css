@@ -1,0 +1,84 @@
+.home-main-container{
+    display: flex;
+    width: 100vw;
+    justify-content: space-around;
+    align-items: center;
+   
+    padding-top: 0px;
+    background-color: #F9FAFF;
+    padding-bottom: 150px;
+}
+@media (max-width: 576px) {
+    .home-main-container {
+        display: flex;
+        flex-direction: column;
+        padding-top: 0px;
+        background-color: #F9FAFF;
+    }
+
+    .name-text {
+        font-family: 'Playfair Display';
+        font-size: 10px;
+    
+       
+    }
+}
+
+
+
+.home-text-container{
+    width: 40vw;
+}
+
+.ui{
+    color: #FDC435;
+}
+.name-text{
+    font-family: 'Playfair Display';
+    font-size: 90px;
+}
+.name-text2{
+    font-family: 'Playfair Display';
+    font-size: 60px;
+    text-align: center;
+}
+.m{
+    background-color: #F9FAFF;
+    
+}
+.project-button{
+    background-color: #FDC435;
+    border-style: none;
+    padding:10px;
+    border-radius: 10px;
+    margin: 10px;
+    margin-left: 0px;
+}
+.linked-button{
+    background-color:transparent;
+    
+    padding:10px;
+    border-radius: 10px;
+    margin: 10px;
+}
+.contact{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contact-main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.icon{
+    height:40px;
+    width: 40px;
+    margin:10px
+}
+.icon2{
+    height:40px;
+    width: 40px;
+    margin-bottom:10px;
+}

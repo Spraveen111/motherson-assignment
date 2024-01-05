@@ -1,0 +1,55 @@
+.add-main-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+   
+}
+.second-container{
+    width: 500px;
+}
+@media (max-width:576px){
+    .second-container{
+        width: 300px;
+        flex-direction: column;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+.add-text{
+    font-family: 'Playfair Display';
+    text-align: end;
+    font-size: 40px;
+
+}
+.name{
+    padding: 10px;
+    border-style: none;
+    border-radius:10px;
+
+}
+.project-button{
+    background-color: #FDC435;
+    border-style: none;
+    padding:10px;
+    border-radius: 10px;
+    margin: 10px;
+    margin-left: 0px;
+    
+}
+.b-container{
+    display: flex;
+    justify-content: flex-end;
+}
+.name-text2{
+    font-family: 'Playfair Display';
+    font-size: 60px;
+    text-align: center;
+}
